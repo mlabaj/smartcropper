@@ -18,8 +18,9 @@ GEM
     i18n (0.6.4)
     minitest (4.7.5)
     multi_json (1.7.7)
+    power_assert (0.2.2)
     rake (0.8.7)
-    rmagick (2.13.2)
+    rmagick (2.15.4)
     rspec (2.14.0)
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
@@ -34,6 +35,8 @@ GEM
     shoulda-context (1.1.4)
     shoulda-matchers (2.2.0)
       activesupport (>= 3.0.0)
+    test-unit (3.0.8)
+      power_assert
     thread_safe (0.1.0)
       atomic
     tzinfo (0.3.37)
@@ -46,3 +49,7 @@ DEPENDENCIES
   rspec
   shoulda
   smartcropper!
+  test-unit
+
+BUNDLED WITH
+   1.10.6

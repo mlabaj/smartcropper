@@ -37,4 +37,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency('rake', [">= 0"])
   s.add_development_dependency('rspec', [">= 0"])
   s.add_development_dependency('shoulda', [">= 0"])
+  s.add_development_dependency('test-unit', [">= 0"])
 end
